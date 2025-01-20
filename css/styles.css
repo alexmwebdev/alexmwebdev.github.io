@@ -4205,9 +4205,6 @@ textarea.form-control-lg {
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
 }
-.card-body .row {
-  width:110%;
-}
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
 }
@@ -5452,6 +5449,9 @@ textarea.form-control-lg {
     max-width: none;
     height: 100%;
     margin: 0;
+  }
+  .card-body .row {
+    width:110%;
   }
   .modal-fullscreen-md-down .modal-content {
     height: 100%;
