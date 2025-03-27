@@ -222,6 +222,51 @@
                                     </div>
                                 </div>
                             </div>
+                            <br/>
+                            <br/>
+                            <h2 class="fw-bolder"><u>Games</u></h2>
+                            <br/>
+                            <!-- Project Card 10-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="row">
+                                            <div class="p-5 col-md-12">
+                                                <h2 class="fw-bolder">Spooky Hotel</h2>
+                                                <p>tasked with writing a program that will allow the player to navigate and explore a hotel that is described with a level file. A level file will specify the rooms on the first line delimited by a space, following that, each line will describe a room's pathway to another room.</p>
+                                                <p>The first room listed on the first line is the starting point of the level. The level file structure :</p>
+                                                <p><strong>START FOYER ELEVATOR <br/>
+                                                START > NORTH > FOYER <br/>
+                                                FOYER > SOUTH > START <br/> 
+                                                START > WEST > ELEVATOR</strong></p>
+                                                <p>Each pathway is broken up by spaces and the > symbols. <roomA> > WEST > <roomB> this translates to: roomA's west's pathway connects to roomB:</p>
+                                                <p>Annotation for the test level file:</p>
+                                                <p><strong>START FOYER ELEVATOR //START is the first room of the hotel. <br/>
+                                                START > NORTH > FOYER //START's north pathway connects to the FOYER <br/>
+                                                FOYER > SOUTH > START //FOYER's south pathway connects to the START <br/> 
+                                                START > WEST > ELEVATOR //START's west pathway connects to the ELEVATOR</strong></p>
+                                                <p>The commands that a player can input:</p>
+                                                <p><strong>
+                                                NORTH <br/>
+                                                SOUTH <br/>
+                                                EAST <br/>
+                                                WEST <br/>
+                                                QUIT <br/>
+                                                </strong></p>
+                                                <p>QUIT command allows the user to quit the program, please ensure that you clean up any memory you have allocated.</p>
+                                                <p>The NORTH, SOUTH, EAST and WEST commands will allow the player to move between the rooms via the room's pathways. Each room has a maximum of 4 pathways.</p>
+                                                <p>A room will outline if the paths that are available to it by specifying the direction at the side of the room. For example if the room has a path to another room by going north it will show N on the north side of the room.</p>
+                                                <p>If a user specifies a direction that does not have a pathway the program should output: No Path This Way</p>
+                                                <p>If the user inputs an invalid command the program should respond with: What?</p>
+
+                                            </div>
+                                            <div class="p-5 col-md-12">
+                                                <img class="img-fluid" src="assets/spooky-hotel.png" alt="Spooky Hotel" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
